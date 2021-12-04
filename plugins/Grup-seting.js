@@ -3,7 +3,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 	let isClose = {
 		'open': false,
 		'buka': false,
-		'on': false,
+		'on': true,
 		'1': false,
 		'close': true,
 		'tutup': true,
